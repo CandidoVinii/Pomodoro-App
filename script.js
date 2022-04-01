@@ -17,5 +17,6 @@ const iniciar = () => {
   }else if (sessoes.value == 0 ) {
     document.getElementById('erro_sessoes').innerHTML = 'Adicione as sessões';
     sessoes.focus()
+    
   }
 }
